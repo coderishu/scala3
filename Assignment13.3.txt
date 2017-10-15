@@ -1,0 +1,16 @@
+def babysquare(n:Int):Unit ={
+var y=1
+var x =n
+while(x - y >0 )
+{
+x = (x + y) /2
+y = n /x
+}
+println(x)
+}
+babysquare(10)
+
+
+output
+
+3
